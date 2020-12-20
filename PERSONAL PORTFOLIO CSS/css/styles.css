@@ -1,0 +1,135 @@
+/******* TAG SELECTORS *******/
+body{
+  background-color: #fcf9ea;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Shadows Into Light", sans-serif;
+}
+
+hr{
+  color: gray;
+  border-style: dotted none none none;
+  border-top-width: 10px;
+  width: 30%;
+}
+
+h1{
+  font-size: 5.625rem;
+  color: #66BFBF;
+  font-family: "Oleo Script Swash Caps";
+  margin: 50px auto 0 auto;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+  font-family: "Shadows Into Light", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.SkillImage{
+  height: 170px;
+  width: 170px;
+  border-radius: 150%;
+  float: left;
+  margin-right: 30px;
+}
+
+.SkillImage2{
+  height: 170px;
+  width: 170px;
+  border-radius: 150%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+.TopContainer{
+  background-color: #badfdb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Shadows Into Light", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+#topCloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+#btmCloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#middle-container{
+  margin-bottom: 30px;
+}
+
+#bottom-container{
+  background-color: #f8a978;
+  padding: 15px 0 20px;
+}
+
+#profile_pic{
+  height: 150px;
+  border-radius: 100%;
+}
+
+#copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0 0 0;
+}
